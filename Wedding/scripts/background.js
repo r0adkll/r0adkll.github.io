@@ -37,7 +37,7 @@ function cycle(){
           }
           return 'url(' + images[i++] + ')'; 
       });
-  }, 15000);
+  }, 5000);
 
 }
 cycle();
