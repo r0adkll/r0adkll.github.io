@@ -13,7 +13,9 @@ preload([
     'images/chuck_4.jpg',
     'images/chuck_5.jpg',
     'images/chuck_6.jpg',
-    'images/chuck_7.jpg'
+    'images/chuck_7.jpg',
+    'images/chuck_8.jpg',
+    'images/chuck_9.jpg'
 ]);
 /*
   Cycle through a series of background images
@@ -26,7 +28,9 @@ function cycle(){
     'images/chuck_4.jpg',
     'images/chuck_5.jpg',
     'images/chuck_6.jpg',
-    'images/chuck_7.jpg'  
+    'images/chuck_7.jpg',
+    'images/chuck_8.jpg',
+    'images/chuck_9.jpg' 
   ];
   var i = 0;
   
