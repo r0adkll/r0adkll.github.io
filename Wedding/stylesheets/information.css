@@ -19,6 +19,17 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.dropdown-menu > li > a {
+  text-shadow: 0 0 0 transparent;
+}
+
 /*
  * Base structure
  */
@@ -26,7 +37,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #000;
 }
 body {
   color: #fff;
@@ -35,17 +46,16 @@ body {
 }
 
 .bgImageContainer{
-    background-image:url('../images/chuck_4.jpg'); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image:url('../images/chuck_9.jpg'); 
     background-size: cover;
     width:100%;
     height:100%;
-    filter: blur(6px) opacity(75%);
-    -webkit-filter: blur(6px) opacity(75%);
+    filter: blur(7px) opacity(75%);
+    -webkit-filter: blur(5px) opacity(70%);
+    
+    
     z-index:0;
-    position:absolute;
+    position:fixed;
     
     transition: background 0.5s linear;
     -moz-transition: background 0.5s linear; /* Firefox 4 */
@@ -59,26 +69,6 @@ body {
   -webkit-transition: all 2s;
 }
 
-.countdown-timer {
-  color: #f0f0f0;
-  font-size: 18px;
-  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-  font-weight: lighter;
-}
-
-.countdown-timer > strong {
-  color: #fff;
-}
-
-.blueBtn {
-  color: #fff;
-  font-size: 20px;
-}
-
-.blueBtn:focus,
-.blueBtn:hover{
-  color: #e0e0e0; 
-}
 
 .row-thumb {
   float: bottom;
@@ -112,9 +102,32 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 24px;
 }
 
+#map_canvas {
+  width: 350px;
+  height: 450px;
+}
+
+.location-btn {
+  color: #fff;
+  font-size: 20px;
+}
+
+.location-btn:focus,
+.location-btn:hover{
+  color: #e0e0e0; 
+}
+
+.bubble {
+  color: #000;
+  text-shadow: 0 0 0 #000;
+}
+
+.bold-text {
+  font-weight: 700;
+}
 
 /*
  * Header
@@ -152,6 +165,10 @@ body {
   border-bottom-color: #fff;
 }
 
+.masthead-brand > h3 > a {
+  color: #000;
+}
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -162,23 +179,27 @@ body {
 }
 
 
-/*
- * Cover
- */
+/* Featurettes
+------------------------- */
 
-.cover {
-  padding: 0 20px;
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+
+.spacer {
+  margin: 125px 0;
 }
 
 .cover-heading {
   font-size: 48px;
 }
 
-
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
 /*
  * Footer
  */
@@ -189,19 +210,6 @@ body {
 }
 
 
-
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.dropdown-menu > li > a {
-  text-shadow: 0 0 0 transparent;
-}
-
-
 /*
  * Affix and center
  */
@@ -209,7 +217,6 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 0;
   }
   .mastfoot {
@@ -226,6 +233,10 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  
+  .featurette-heading {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -233,5 +244,8 @@ body {
   .mastfoot,
   .cover-container {
     width: 800px;
+  }
+  .featurette-heading {
+    margin-top: 120px;
   }
 }
