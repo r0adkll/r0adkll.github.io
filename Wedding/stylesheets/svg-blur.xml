@@ -1,0 +1,5 @@
+<svg id="svg-filter">
+  <filter id="svg-blur">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5"></feGaussianBlur>
+  </filter>
+</svg> 
