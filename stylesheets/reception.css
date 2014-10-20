@@ -47,13 +47,13 @@ body {
 
 .bgImageContainer{
     background-image:url('../images/reception_1.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     width:100%;
     height:100%;
-    filter: blur(7px) opacity(75%);
-    -webkit-filter: blur(5px) opacity(70%);
-    
-    
+       
     z-index:0;
     position:fixed;
     
@@ -62,13 +62,6 @@ body {
     -webkit-transition: background 0.5s linear; /* Safari and Chrome */
     -o-transition: background 0.5s linear; /* Opera */
 }
-
-.blurred {
-  filter: blur(10px)
-  -webkit-filter: blur(10px);
-  -webkit-transition: all 2s;
-}
-
 
 .row-thumb {
   float: bottom;

@@ -47,16 +47,12 @@ body {
 
 .bgImageContainer{
     background-image:url('../images/chuck_9.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     width:100%;
-    height:100%;
-    filter: blur(5px) opacity(70%);
-    -webkit-filter: blur(5px) opacity(70%);
-    -moz-filter: blur(5px) opacity(70%);
-    -o-filter: blur(5px) opacity(70%);
-    -ms-filter: blur(5px) opacity(70%);
-    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
-    
+    height:100%;    
     
     z-index:0;
     position:fixed;
