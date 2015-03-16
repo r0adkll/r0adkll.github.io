@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            r0adkll
+tagline:          'Taking life one line at a time'
+description:      'The ramblings of a passionate Android developer trying to make his mark on this world.<br/>Made by <a href="https://twitter.com/r0adkll" target="_blank">@r0adkll</a>.'
+url:              http://r0adkll.github.io/hyde
+baseurl:          /
+
+author:
+  name:           'Drew Heavner'
+  url:            https://twitter.com/R0ADKLL
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/r0adkll
