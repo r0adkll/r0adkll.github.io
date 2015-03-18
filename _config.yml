@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            r0adkll
+title:            Drew Heavner
 tagline:          'Taking life one line at a time'
-description:      'The ramblings of a passionate Android developer trying to make his mark on this world.<br/>Made by <a href="https://twitter.com/r0adkll" target="_blank">@r0adkll</a>.'
+description:      'The ramblings of a passionate Android developer trying to make his mark on this world.'
 url:              http://r0adkll.github.io
 baseurl:          /
 
