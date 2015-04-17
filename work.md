@@ -7,8 +7,8 @@ title: Work
 Here are some of the projects and applications that I've worked on since I started developing software as an indie developer and in my professional career.
 </p>
 
-Android
----
+<h1 align="center">Android</h1>
+
 ---
 
 <img src="{{ site.baseurl }}public/images/chipper.png" style="width: 144px;height: 144px;"/>
@@ -30,4 +30,14 @@ _Material Design Update Coming Soon..._
 
 A [Harvest](https://www.getharvest.com) client application that focuses on the user experience of creating/updating/managing your Harvest timers. Haystack includes the ability to create presets, which are pre-configured timers, which allow you to easily create and set timers. Harvest also has a feature called **Workflows** which allow you to use [bluetooth beacons](http://estimote.com), GPS, or WIFI to trigger workflow events such as starting a timer, stopping a timer, or just showing you a notification so you can decide on the action or not.
 
-_Haystack is Coming Soon..._ 
+_Haystack is Coming Soon..._
+
+<h1 align="center">Github</h1>
+
+---
+
+<div class="github-card" data-github="r0adkll/slidr" data-width="400" data-height="153" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+<div class="github-card" data-github="r0adkll/postoffice" data-width="400" data-height="153" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
