@@ -32,12 +32,24 @@ A [Harvest](https://www.getharvest.com) client application that focuses on the u
 
 _Haystack is Coming Soon..._
 
+---
+<img src="{{ site.baseurl }}public/images/mszombies.png" style="width: 144px;height: 144px;"/>
+## Metal Slug Zombie Live Wallpaper
+
+This was my very first Android application that I ever built in an all night bender during a LAN Party. It was a phenomenal success for ~2 years before being removed from the Play Store, for obvious reasons, and garnered **~400,000** downloads. So now I offer it for free for anyone that wants to try it.  
+
+**WARNING:** _It may or may not work as I have stopped maintaining it since it was removed from the store._
+
+[Download Here](https://www.dropbox.com/s/4foyok6ttwxhxqx/ZombieLiveWallpaper.apk?dl=0)
+
+<p style="font-size: 12pt;"><i>SNK: if there is an issue with me still hosting the Metal Slug fanwork, I will gladly remove it. </i></p>
+
 <h1 align="center">Github</h1>
 
 ---
 
-<div class="github-card" data-github="r0adkll/slidr" data-width="400" data-height="153" data-theme="default"></div>
+<div class="github-card" data-github="r0adkll" data-width="400" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-<div class="github-card" data-github="r0adkll/postoffice" data-width="400" data-height="153" data-theme="default"></div>
+<div class="github-card" data-github="52inc" data-width="400" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
