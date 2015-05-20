@@ -4,7 +4,7 @@ title: Work
 ---
 
 <p class="lead">
-Here are some of the projects and applications that I've worked on since I started developing software as an indie developer and in my professional career.
+Here are some of the projects and applications that I've worked on since I started developing software as an indie developer.
 </p>
 
 <h1 align="center">Android</h1>
